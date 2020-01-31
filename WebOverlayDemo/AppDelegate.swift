@@ -17,5 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     WebOverlay.sharedInstance.start(with: [StartOptions.topTitle: "hello", StartOptions.bottomTitle: "world", StartOptions.closeButtonImageName: "close"])
     return true
   }
+  func applicationWillEnterForeground(_ application: UIApplication) {
+    WebOverlay.sharedInstance.start(with: [StartOptions.topTitle: "hello", StartOptions.bottomTitle: "world", StartOptions.closeButtonImageName: "close"])
+  }
 }
 

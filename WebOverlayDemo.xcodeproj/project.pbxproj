@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2012021D23E45606004BD65A /* WebOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 2012021C23E45606004BD65A /* WebOverlay */; };
+		20A7358E23E47C8600A2C165 /* WebOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 20A7358D23E47C8600A2C165 /* WebOverlay */; };
 		20AEEE1623D9C19A00A9CED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEEE1523D9C19A00A9CED3 /* AppDelegate.swift */; };
 		20AEEE1A23D9C19A00A9CED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEEE1923D9C19A00A9CED3 /* ViewController.swift */; };
 		20AEEE1D23D9C19A00A9CED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AEEE1B23D9C19A00A9CED3 /* Main.storyboard */; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2012021D23E45606004BD65A /* WebOverlay in Frameworks */,
+				20A7358E23E47C8600A2C165 /* WebOverlay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 			);
 			name = WebOverlayDemo;
 			packageProductDependencies = (
-				2012021C23E45606004BD65A /* WebOverlay */,
+				20A7358D23E47C8600A2C165 /* WebOverlay */,
 			);
 			productName = WebOverlayDemo;
 			productReference = 20AEEE1223D9C19A00A9CED3 /* WebOverlayDemo.app */;
@@ -241,7 +241,7 @@
 			);
 			mainGroup = 20AEEE0923D9C19A00A9CED3;
 			packageReferences = (
-				2012021B23E45606004BD65A /* XCRemoteSwiftPackageReference "WebOverlay" */,
+				20A7358C23E47C8600A2C165 /* XCRemoteSwiftPackageReference "WebOverlay" */,
 			);
 			productRefGroup = 20AEEE1323D9C19A00A9CED3 /* Products */;
 			projectDirPath = "";
@@ -622,20 +622,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2012021B23E45606004BD65A /* XCRemoteSwiftPackageReference "WebOverlay" */ = {
+		20A7358C23E47C8600A2C165 /* XCRemoteSwiftPackageReference "WebOverlay" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/khurram18/WebOverlay";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.7;
+				minimumVersion = 1.0.8;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2012021C23E45606004BD65A /* WebOverlay */ = {
+		20A7358D23E47C8600A2C165 /* WebOverlay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2012021B23E45606004BD65A /* XCRemoteSwiftPackageReference "WebOverlay" */;
+			package = 20A7358C23E47C8600A2C165 /* XCRemoteSwiftPackageReference "WebOverlay" */;
 			productName = WebOverlay;
 		};
 /* End XCSwiftPackageProductDependency section */

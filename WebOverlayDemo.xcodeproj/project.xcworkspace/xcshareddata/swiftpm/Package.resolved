@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "WebOverlay",
+        "repositoryURL": "https://github.com/khurram18/WebOverlay",
+        "state": {
+          "branch": null,
+          "revision": "06fb3596f95ad1485d6290354e408e4be888d7e6",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

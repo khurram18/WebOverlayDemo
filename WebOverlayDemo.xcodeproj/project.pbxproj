@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2012021D23E45606004BD65A /* WebOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 2012021C23E45606004BD65A /* WebOverlay */; };
 		20AEEE1623D9C19A00A9CED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEEE1523D9C19A00A9CED3 /* AppDelegate.swift */; };
-		20AEEE1823D9C19A00A9CED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEEE1723D9C19A00A9CED3 /* SceneDelegate.swift */; };
 		20AEEE1A23D9C19A00A9CED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEEE1923D9C19A00A9CED3 /* ViewController.swift */; };
 		20AEEE1D23D9C19A00A9CED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AEEE1B23D9C19A00A9CED3 /* Main.storyboard */; };
 		20AEEE1F23D9C19A00A9CED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AEEE1E23D9C19A00A9CED3 /* Assets.xcassets */; };
@@ -51,7 +50,6 @@
 /* Begin PBXFileReference section */
 		20AEEE1223D9C19A00A9CED3 /* WebOverlayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebOverlayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AEEE1523D9C19A00A9CED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20AEEE1723D9C19A00A9CED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20AEEE1923D9C19A00A9CED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20AEEE1C23D9C19A00A9CED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20AEEE1E23D9C19A00A9CED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				20AEEE1523D9C19A00A9CED3 /* AppDelegate.swift */,
-				20AEEE1723D9C19A00A9CED3 /* SceneDelegate.swift */,
 				20AEEE1923D9C19A00A9CED3 /* ViewController.swift */,
 				20AEEE1B23D9C19A00A9CED3 /* Main.storyboard */,
 				20AEEE1E23D9C19A00A9CED3 /* Assets.xcassets */,
@@ -291,7 +288,6 @@
 			files = (
 				20AEEE1A23D9C19A00A9CED3 /* ViewController.swift in Sources */,
 				20AEEE1623D9C19A00A9CED3 /* AppDelegate.swift in Sources */,
-				20AEEE1823D9C19A00A9CED3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -450,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -631,7 +627,7 @@
 			repositoryURL = "https://github.com/khurram18/WebOverlay";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.5;
+				minimumVersion = 1.0.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
